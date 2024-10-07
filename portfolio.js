@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A Passionate Cloud Engineer 🌩️ with Experience in Architecting Scalable Cloud Environments and Automating Infrastructure with AWS, Terraform, and Ansible"  ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-ueYf68dBJf1OhwRDHmvrTzec1qTU17Y/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -168,43 +168,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "",
-      company: "Facebook",
+      role: "Cloud Engineer",
+      company: "Cloud Innovators",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "March 2021 - December 2022",
+      //desc: " Cloud Engineer.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and implemented a cost-effective cloud architecture for a high-traffic e-commerce website, and heathcare organizations resulting in a 30% reduction in infrastructure costs and a 20% increase in website speed.",
+	      "Researched and recommended new cloud technologies and services, resulting in the adoption of a new cloud-based monitoring tool that improved infrastructure visibility by 40%.",
+	      "Conducted security assessments and impemented measures, reducing security incidents by 15%.",
+"Designed and implemented disaster recovery plans, resulting in a 90% reduction in downtime during a major system outage.",
+"Collaborated with cross-functional teams to ensure alignment with project objectives,Agile best practices and security standards."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Cloud Engineer",
+      company: "BVR Cloud",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      date: "May 2020 – January 2021",
+      descBullets:[
+	      "Designed, built, and maintained infrastructure and software platforms within cloud-based environments (AWS and Azure).",
+      "Set up and configured cloud-based infrastructure using AWS services such as EC2, S3, RDS, and VPC, supporting the development and deployment of cloud-based applications.",
+      "Troubleshot and resolved cloud-related issues, reducing downtime by 50% and improving system availability by 25%.",
+      "Migrated existing on-premises services from physical data centers to cloud using cloud migration and automation tools.",
+      "Created and maintained technical documentation, ensuring that all cloud-based infrastructure and applications were well-documented and easy to maintain."
   ]
-};
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
+    },
+  
+//some projects
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -235,6 +226,7 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+console.log(bigProjects);
 
 // Achievement Section
 // Include certificates, talks etc
